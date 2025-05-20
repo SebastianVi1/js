@@ -2,7 +2,7 @@
 function Dog(name, age){
     let dog = Object.create(dogConstructor);
     dog.name = name;
-    dog.age = age;
+    dog._age = age; // private property
 
     return dog;
 }

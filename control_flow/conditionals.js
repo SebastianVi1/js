@@ -13,7 +13,7 @@ if (a > b){
 
 // conditional simplified
 
-//if (condition) code to execute if condicion is (true) else then execute this
+//if (condition) code to execute if condition is (true) else  execute this
 
 if (a  < b ) console.log("a is minor"); else console.log('hello');
 
